@@ -83,7 +83,7 @@ span {
   display: inline-block;
   width: 2rem;
   height: 2rem;
-  line-height: 1.8;
+  line-height: 1.6;
   font-size: 1.2rem;
   color: var(--white);
   border-radius: 99px;
@@ -103,7 +103,7 @@ span {
 /* heading */
 
 .heading {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
   text-transform: capitalize;
@@ -113,14 +113,14 @@ span {
 
 @media screen and (min-width:768px) {
   .heading {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
 
   }
 }
 
 .lead {
   font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 1.7;
   word-spacing: 0.04rem;
 }
 
@@ -134,7 +134,7 @@ ul.list {
 }
 
 .list li {
-  padding: 0.5rem;
+  padding: 0.8rem;
   color: var(--skyblue);
   transition: color, transform 0.2s linear;
 }
